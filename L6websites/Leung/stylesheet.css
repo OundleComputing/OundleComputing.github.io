@@ -1,0 +1,189 @@
+body, html {
+	height: 100%;
+	padding = 0px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+ul {
+	color: white;
+	font-size:30px;
+	font-family:Urbanist;
+	left: 50%;
+}
+
+p{
+
+	text-align:left;
+	color:#FF8787;
+	font-size:30px;
+	font-family:Urbanist;
+	padding-left:30px;
+	padding-right:30px;
+
+}
+
+#navbar {
+	overflow: hidden;
+	background-color:darkred;
+}
+
+/* Navbar links */
+#navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+
+/* Page content */
+.content {
+	padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+	padding-top: 60px;
+}
+
+#topmenu{
+	color:black;
+	font-size:20px;
+	font-family:Urbanist;
+}
+
+.parallax1 {
+	/* The image used */
+	background-image: url("Orchetra.jpeg");
+
+	/* Full height */
+	height: 100%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax2 {
+	/* The image used */
+	background-image: url("Choir2.jpeg");
+
+	/* Full height */
+	height: 100%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax3 {
+	/* The image used */
+	background-image: url("Orchestra_3.jpeg");
+
+	/* Full height */
+	height: 100%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.double {border-style: double;}
+
+.footer_stuff{
+	float: left;
+	width: 33%;
+	padding: 50px;
+	height: 300px;
+}
+
+.footer_text{
+	text-align:center;
+	font-size:25px;
+	font-family:Urbanist;
+}
+
+.all_text{
+	text-align:center;
+	font-family:Urbanist;
+	color:#FF8787;
+}
+
+.black_text{
+	text-align:center;
+	font-family:Urbanist;
+	color:black;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}

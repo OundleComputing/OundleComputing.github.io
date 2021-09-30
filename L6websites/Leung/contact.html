@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Oundle and District Choral Society</title>
+
+		<meta name="description" content="Welcome to the Oundle &amp; District Choral Society. We are a mixed voice choir of some 70 voices.">
+
+			<link rel="stylesheet" href="stylesheet.css">
+			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+			<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+	</head>
+
+	<body style="background-color:darkred;">
+
+		<div id="navbar">
+			<a href="home.html" id="topmenu">Home</a>
+			<a href="concerts.html" id="topmenu">Concerts and Events</a>
+			<a href="music.html" id="topmenu">Music</a>
+			<a href="members.html" id="topmenu">Members</a>
+			<a href="info.html" id="topmenu">Site Information</a>
+			<a href="contact.html" id="topmenu">Contact Us</a>
+		</div>
+		<br><br>
+
+		<h1 style="text-align:center; color:white; font-size:100px; font-family:Urbanist;">Oundle and District Choral Society</h1>
+		<hr>
+		<h1 style = "text-align:left; color:#FF8787; font-size:50px; font-family:Urbanist; padding-left:30px">Contact Us!</h1>
+
+		<div style="float:left; width:100%; padding: 50px; height: 600px; background-color:lightgrey">
+			<form action="http://localhost:8888/contact.php" method="get">
+				<div class="clearfix">
+					<div style="float:left; width:50%; padding: 50px; height: 400px; background-color:lightgrey">
+							<p style="text-align:left; font-size:30px"><label for="name" class="black_text">Name: </label><br><input type="text" id="name" name="name" size="40"><br></p><br>
+							<p style="text-align:left; font-size:30px"><label for="land_num" class="black_text">Landline Number:</label><br><input type="tel" id="land_num" name="land_num" size="40"><br></p>
+					</div>
+
+					<div style="float:left; width:50%; padding: 50px; height: 400px; background-color:lightgrey">
+							<p style="text-align:left; font-size:30px"><label for="email" class="black_text">Email: </label><br><input type="email" id="email" name="email" size="40"><br></p><br>
+							<p style="text-align:left; font-size:30px"><label for="mob_num" class="black_text">Mobile Number:</label><br><input type="tel" id="mob_num" name="mob_num" size="40"><br></p>
+					</div>
+				</div>
+				<p style="text-align:center"><input type="submit" value="Submit"></p><br>
+			</form>
+		</div
+
+		<div class="clearfix" style="background-color:white">
+			<div class="footer_stuff">
+				<h2 class="footer_text">Who We Are</h2>
+				<h3 class="footer_text">Oundle & District Choral Society</h3>
+				<h3 class="footer_text">07712 673786</h3>
+				<h3 class="footer_text">enquiries@oundlechoralsociety.org.uk</h3>
+				<h3 class="footer_text"><a href = "contact.html">Contact Us</a></h3>
+			</div>
+
+			<div class="footer_stuff">
+				<h2 class="footer_text">What We Do</h2>
+				<h3 class="footer_text"><a href="home.html">Welcome</a></h3>
+				<h3 class="footer_text"><a href="concerts.html">Concerts & Events</a></h3>
+				<h3 class="footer_text"><a href="music.html">Music</a></h3>
+				<h3 class="footer_text"><a href="contact.html">Contact Us</a></h3>
+				<h3 class="footer_text"><a href="info.html">Information</a></h3>
+			</div>
+
+			<div class="footer_stuff">
+				<h2 class="footer_text">Information</h2>
+				<h3 class="footer_text"><a href = "info.html">Cookie Policy</a></h3>
+				<h3 class="footer_text"><a href = "info.html">Privacy Policy</a></h3>
+			</div>
+		</div>
+		<p style="font-size:10px; text-align:center;">Page designed by someone with too much time</p>
+
+		<script>
+			// When the user scrolls the page, execute myFunction
+			window.onscroll = function() {myFunction()};
+
+			// Get the navbar
+			var navbar = document.getElementById("navbar");
+
+			// Get the offset position of the navbar
+			var sticky = navbar.offsetTop;
+
+			// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			  } else {
+				navbar.classList.remove("sticky");
+			  }
+			}
+		</script>
+	</body>
+</html>
