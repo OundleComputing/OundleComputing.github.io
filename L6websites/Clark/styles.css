@@ -1,0 +1,48 @@
+.rue{
+    background-color:rgb(255, 99, 71);
+    font-size: 50px;
+    border:4px solid DodgerBlue;
+}
+
+.blue{
+    font-size:medium ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+}
+
+.BEE{
+    background-color: black;
+    color: yellow;
+    font-size: xx-large;
+}
+
+.aqua{
+    color: rgb(82, 158, 133);
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+.Title{
+    color: black;
+    font-size: larger;
+
+}
+
+.w3-sidebar{
+    height:100%;
+    width:200px;
+    background-color:rgb(173, 15, 15);
+    position:fixed!important;
+    z-index:1;
+    overflow:auto
+}
+
+.w3-bar .w3-button{white-space:normal}
+.w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+
+pre{
+    background-color: chocolate;
+}
+body {
+    background-color: lightblue;
+  } 

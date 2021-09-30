@@ -1,0 +1,26 @@
+.navbar{
+    background-color: rgb(0, 0, 128);
+}
+
+body{
+    background-color:white
+}
+
+h1{
+    background-color: black;
+    color:white;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    color:white;
+    background-color: maroon;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif
+    
+}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="w3-sidebar w3-bar-block" style="width:9%">
+        <button type="button" class="btn"><a href="WEbsiteee.html">Home</a></button><br>
+        <button type="button" class="btn"><a href="songs.html">Our songs</a></button>
+        <button type="button" class="btn"><a href="GKW.html">Good King Wenceslas</a></button>
+        <button type="button" class="btn"><a href="HTHA.html">Hark the Herald Angels</a></button>
+        <button type="button" class="btn"><a href="J.html">Jerusalem</a></button>
+    </div>
+    <h1 class="aqua"><u><center>Our songs</center></u></h1>
+
+<p id="S1"; class="Title"><center>
+    Jerusalem:
+</center></p>
+
+    <center><pre>
+
+    And did those feet in ancient time
+    Walk upon England's mountain green?
+    And was the holy Lamb of God
+    On England's pleasant pastures seen?
+    And did the countenance divine
+    Shine forth upon our clouded hills?
+    And was Jerusalem builded here
+    Among those dark satanic mills?
+    
+    Bring me my bow of burning gold!
+    Bring me my arrows of desire!
+    Bring me my spear! O clouds, unfold!
+    Bring me my chariot of fire!
+    I will not cease from mental fight,
+    Nor shall my sword sleep in my hand,
+    Till we have built Jerusalem
+    In England's green and pleasant land.
+    
+    </pre></center>
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

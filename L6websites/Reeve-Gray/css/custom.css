@@ -1,0 +1,154 @@
+#Logo {
+    width:120px;
+    border-radius: 80px;
+    padding: 0;
+}
+
+/*
+.navbar-expand-sm {
+    justify-content:;
+}
+*/
+
+.navbar-nav{
+    margin-left:auto;
+}
+.navbar-custom {
+    background-color: #96072F;
+}
+
+.navbar-custom .navbar-dark {
+    color: whitesmoke;
+}
+@import url('https://fonts.googleapis.com/css?family=Urbanist');
+body{
+    font-family: "Urbanist",sans-serif;
+}
+
+.nav-item {
+    font-size: 1.2em;
+    font-family: "Urbanist", sans-serif;
+}
+
+/*Parallax effect*/
+
+#parallax {
+    background: url("/images/pexels-andrea-piacquadio-3823489.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+    padding: 0%;
+}
+
+#parallax2 {
+    background: url("/images/pexels-brett-sayles-2425567.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+}
+
+.wtitle{
+    color: black;
+    margin-left:5%; margin-right: 40%;
+    height:100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.212);
+    padding-bottom:15%; padding-top: 5%;
+    padding-left:2%;
+    transform: skew(-10deg);
+}
+
+#parallaxContainer {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 4;
+    
+}
+
+.wtitle h2 {
+    font-size: 2.2em;
+    line-height: 1em;
+    padding-left: 3%;
+    transform: skew(11deg) !important;
+}
+.wtitle h1 {
+    font-size: 3.4em;
+    transform: skew(11deg) !important;
+}
+
+.text-left{
+    text-align:left!important;
+}
+
+.breaker{
+    border-top:black 4px solid;
+}
+
+
+ iframe .borderer{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+#big {
+    color: rgb(204, 204, 204);
+    padding-top: 3%; padding-bottom: 3%;
+    background-color:#a50f3a;
+}
+
+.grey-transparent{
+    padding:0.7%;
+    background-color: rgba(0, 0, 0, 0.014);
+    margin-left:3%; margin-right: 3%; 
+    border-radius: 3px;
+}
+
+.grey-transparent p {
+    font-size: 1.2em;
+}
+
+
+#shrinker {
+    margin-left:15%; margin-right: 15%;
+}
+
+.col hr {
+    border-top:whitesmoke 1px solid;
+    margin-left: 42%; margin-right: 42%;
+    padding-bottom:1%;
+}
+
+
+.col ul {
+    list-style-type: none;
+    position: center;
+    font-size: 1.3em;
+}
+
+#extraPadding{
+    padding-bottom: 1%;
+    font-size: 2em;
+}
+
+#left p {
+    font-size: 1.4em ;
+}
+
+#image-sizer {
+    width:30%;
+}
+
+#tbh-i-have-no-idea-what-I-am-doing-anymore{
+    background-color: rgba(0, 0, 0, 0.315);
+    padding:7%;
+    margin:0;
+}
+
+footer {
+    background-color: #96072F;
+    padding: 5%;
+}

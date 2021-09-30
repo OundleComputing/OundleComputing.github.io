@@ -1,0 +1,84 @@
+html{
+  margin: 0px;
+  padding: 0px;
+  background-color: #072453;
+}
+a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+p{
+  font-size: 50px;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  margin-top: 0px;
+  padding: 0px;
+  text-align: left;
+  font-size: 40px;
+} 
+#Body {
+  
+  color: white;
+  padding: 40px;
+  text-align: center;
+} 
+.K{
+  font-size: 100px;
+  position: relative;
+  top: 100px;
+  right: 1000px;
+}
+td {
+  padding: 15px;
+  border:transparent;
+  font-size: 15px;
+  text-align: center;
+  width: 16.7%;
+}
+
+
+table {
+  color:whitesmoke;
+  position: relative; 
+  top: -25px;
+  width: 100%;
+  
+}
+.he1{
+  font-size: 46px;
+  position: relative;
+  top: -10px;
+}
+.button1{
+  background-color: #072453;
+  color:whitesmoke;
+  border-radius: 10px;
+}
+.button1:hover{
+  background-color: white;
+  color: black;
+}
+img {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  position:absolute;
+  right:20px;
+  top: 150px;
+  width: 200px;
+  height: 300px;
+
+}
+hr.a{
+  border: 1px solid white;
+  margin:0;
+  padding:0; 
+  position: relative; 
+  top: -26px;
+}
+
+
+
+
+

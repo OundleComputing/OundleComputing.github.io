@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="w3-sidebar w3-bar-block" style="width:10%">
+        <button type="button" class="btn"><a href="WEbsiteee.html">Home</a></button>
+        <button type="button" class="btn"><a href="songs.html">Our songs</a></button>
+        <button type="button" class="btn"><a href="GKW.html">Good King Wenceslas</a></button>
+        <button type="button" class="btn"><a href="HTHA.html">Hark the Herald Angels</a></button>
+        <button type="button" class="btn"><a href="J.html">Jerusalem</a></button>
+    </div>
+    <h1 class="aqua"><u><center>Our songs</center></u></h1>
+
+<p id="S1"; class="Title"><center>
+    Hark the Herald Angels:
+</center></p>
+        
+<center><pre>
+
+    Hark! the herald angels sing,
+    "Glory to the newborn King:
+    peace on earth, and mercy mild,
+    God and sinners reconciled!"
+    Joyful, all ye nations, rise,
+    join the triumph of the skies;
+    with th'angelic hosts proclaim,
+    "Christ is born in Bethlehem!"
+
+    Refrain:
+    Hark! the herald angels sing,
+    "Glory to the newborn King"
+   
+    Christ, by highest heaven adored,
+    Christ, the everlasting Lord,
+    late in time behold him come,
+    offspring of the Virgin's womb:
+    veiled in flesh the Godhead see;
+    hail th'incarnate Deity,
+    pleased with us in flesh to dwell,
+    Jesus, our Immanuel. 
+    [Refrain]
+
+    Hail the heaven-born Prince of Peace!
+    Hail the Sun of Righteousness!
+    Light and life to all he brings,
+    risen with healing in his wings.
+    Mild he lays his glory by,
+    born that we no more may die,
+    born to raise us from the earth,
+    born to give us second birth. 
+    [Refrain]
+
+</pre></center>        
+
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
